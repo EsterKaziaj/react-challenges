@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                            // Target modern JS features
+    "module": "ESNext",                         // Support ES Modules
+    "jsx": "react-jsx",                         // Enables JSX syntax
+    "moduleResolution": "node",                 // Node-style module resolution
+    "esModuleInterop": true,                    // Allow ES6 module interop
+    "forceConsistentCasingInFileNames": true,   // Enforce consistent file casing
+    "strict": true,                             // Enable strict type-checking
+    "skipLibCheck": true                        // Skip checking library files
+  },
+  "include": ["src"],                           // Include files in the src folder
+  "exclude": ["node_modules", "public"]         // Exclude unnecessary folders
+}

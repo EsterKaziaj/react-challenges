@@ -1,0 +1,81 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #75797d; /* Light background for the body */
+  color: #333;
+}
+
+/* App container */
+.app-container {
+  background-color: #d2c1cb; /* Light container background */
+  border-radius: 10px; /* Rounded corners for modern look */
+  margin: 2rem auto;
+  max-width: 500px; /* Center the content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+  height: 250px;
+  background-image: url("./components/images/raw/Girls-Listen-Music_0.jpg"); /* Background image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #00d1b2; /* Light blue hover effect */
+}
+
+/* Artists List */
+.artists-container {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9; /* Light grey for artists section */
+}
+
+.artist-card {
+  margin: 1rem auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+}
+
+.artist-card img {
+  width: 100%;
+  height: auto;
+}
+
+.artist-card h3 {
+  background-color: #00bcd4; /* Light blue background */
+  color: #fff;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+/* Other Styling */
+h1,
+h2 {
+  margin: 1rem 0;
+  font-weight: bold;
+}
