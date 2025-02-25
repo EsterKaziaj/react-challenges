@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Layout for the Main Content */
+.content {
+  display: flex;
+  margin-top: 80px; /* Space for the fixed header */
+  padding: 20px;
+}
+
+/* Bike Cards Grid */
+.bike-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 20px; /* Space between cards */
+  justify-items: center;
+  flex: 1; /* Ensures it takes remaining space */
+}
+
+/* Adjustments for Mobile View */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 10px;
+  }
+
+  .filters {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .bike-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row for smaller screens */
+    padding-top: 25%;
+  }
+
+  .card {
+    width: 100%; /* Full width for cards on smaller screens */
+  }
+}

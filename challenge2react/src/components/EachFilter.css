@@ -1,0 +1,13 @@
+.each-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .each-filter:hover {
+    background-color: #ffe5b4;
+  }
+  

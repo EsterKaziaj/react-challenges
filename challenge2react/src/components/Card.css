@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px; /* Fixed card width */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0; /* No margin or padding inside */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    object-fit: contain;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-content {
+    width: 100%; /* Full width for the footer */
+    background-color: #f39c12;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; /* Slight padding for the text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card-content h3 {
+    font-size: 16px; /* Bold for title */
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .card-content p {
+    font-size: 14px; /* Smaller text for price */
+    font-weight: normal;
+    margin: 5px 0 0; /* Space below the title */
+  }
+  
