@@ -1,0 +1,25 @@
+.footer {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .footer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .footer a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .footer a:hover {
+    color: #ff4c3b;
+  }
+  

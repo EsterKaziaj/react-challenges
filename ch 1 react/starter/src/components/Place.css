@@ -1,0 +1,39 @@
+.place {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .place-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s;
+  }
+  
+  .place:hover .place-overlay {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .place h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .place p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+  }
+  
